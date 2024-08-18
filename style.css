@@ -1,0 +1,34 @@
+
+h1, h2#nickname  {
+    font-family: Garamond, Georgia, serif;
+    font-style: italic;
+    color:black;
+}
+
+h2 {
+    color:brown;
+}
+
+p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-style: outset;
+   
+}
+
+li, p {
+    background-color: beige;
+}
+
+ul li {
+color:blue;
+}
+
+ol li {
+color: darkblue;
+}
+
+
+a {
+    color:red;
+}
+
