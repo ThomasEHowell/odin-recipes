@@ -1,17 +1,38 @@
+body {
+    margin: 30px 200px;
+}
+
 
 h1, h2#nickname  {
     font-family: Garamond, Georgia, serif;
     font-style: italic;
     color:black;
+    padding: 10px;
+    border-bottom: 10px ridge indigo;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
 }
 
 h2 {
+    display: block;
     color:brown;
+    text-align: center;
+    border-bottom: 5px dotted grey;
+    padding: 5px;
+    margin: 25px auto 12px;
 }
 
 p {
    font-family: Georgia, 'Times New Roman', Times, serif;
    border-style: outset;
+   text-align: center;
+   padding: 5px;
+   border: 5px solid tan;
+   margin: 20px auto;
    
 }
 
@@ -30,5 +51,34 @@ color: darkblue;
 
 a {
     color:red;
+    display: block;
+    text-align: center;
+    margin: 50px auto 30px;
+}
+
+ul li, ol li {
+    border: 5px groove beige;
+}
+
+ul, ol {
+    border: 10px outset bisque;
+    margin: 0 auto;
+}
+.contents {
+    width: 800px;
+    padding: 10px;
+    margin: 200px auto;
+}
+
+.contents li{
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    height: 200px;
+    width: 263px;
+    padding: 10px;
+    border: 5px inset black;
+    margin: 20px auto;
 }
 
